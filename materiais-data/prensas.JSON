@@ -1,0 +1,17 @@
+{
+    "prensas":[
+        {
+            "nome":"Prensa Vertical"
+        },
+        {
+            "nome":"Prensa Horizontal"
+        }, 
+        {
+            "nome":"Prensa Jacaré"
+        }, 
+        {
+            "nome":"Prensa Usada"
+        }
+
+    ]
+}
