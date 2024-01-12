@@ -51,14 +51,7 @@ function QTD_TAREFAS() {
       mescountdezembro = 0;
 
       if (database[i]["Day"] == 1) {
-        segunda = 0;
-        segunda = aux;
-        terca = 0;
-        quarta = 0;
-        quinta = 0;
-        sexta = 0;
         segunda++;
-        aux = segunda;
       } else {
         if (database[i]["Day"] == 2) {
           terca++;
@@ -86,12 +79,6 @@ function QTD_TAREFAS() {
       if (database[i]["Month"] == 1) {
         mescountfevereiro++;
         if (database[i]["Day"] == 1) {
-          segunda = 0;
-          segunda = aux;
-          terca = 0;
-          quarta = 0;
-          quinta = 0;
-          sexta = 0;
           segunda++;
           aux = segunda;
         } else {
@@ -121,12 +108,6 @@ function QTD_TAREFAS() {
         if (database[i]["Month"] == 2) {
           mescountmarco++;
           if (database[i]["Day"] == 1) {
-            segunda = 0;
-            segunda = aux;
-            terca = 0;
-            quarta = 0;
-            quinta = 0;
-            sexta = 0;
             segunda++;
             aux = segunda;
           } else {
@@ -156,12 +137,6 @@ function QTD_TAREFAS() {
           if (database[i]["Month"] == 3) {
             mescountabril++;
             if (database[i]["Day"] == 1) {
-              segunda = 0;
-              segunda = aux;
-              terca = 0;
-              quarta = 0;
-              quinta = 0;
-              sexta = 0;
               segunda++;
               aux = segunda;
             } else {
@@ -176,12 +151,6 @@ function QTD_TAREFAS() {
                   } else {
                     if (database[i]["Day"] == 5) {
                       sexta++;
-                    } else if (dayAtual == 6) {
-                      segunda = 0;
-                      terca = 0;
-                      quarta = 0;
-                      quinta = 0;
-                      sexta = 0;
                     }
                   }
                 }
@@ -191,14 +160,7 @@ function QTD_TAREFAS() {
             if (database[i]["Month"] == 4) {
               mescountmaio++;
               if (database[i]["Day"] == 1) {
-                segunda = 0;
-                segunda = aux;
-                terca = 0;
-                quarta = 0;
-                quinta = 0;
-                sexta = 0;
                 segunda++;
-                aux = segunda;
               } else {
                 if (database[i]["Day"] == 2) {
                   terca++;
@@ -211,19 +173,6 @@ function QTD_TAREFAS() {
                     } else {
                       if (database[i]["Day"] == 5) {
                         sexta++;
-                      } else if (dayAtual == 6) {
-                        mescountjaneiro = 0;
-                        mescountfevereiro = 0;
-                        mescountmarco = 0;
-                        mescountabril = 0;
-                        mescountmaio = 0;
-                        mescountjunho = 0;
-                        mescountjulho = 0;
-                        mescountagosto = 0;
-                        mescountsetembro = 0;
-                        mescountoutubro = 0;
-                        mescountnovembro = 0;
-                        mescountdezembro = 0;
                       }
                     }
                   }
@@ -233,14 +182,7 @@ function QTD_TAREFAS() {
               if (database[i]["Month"] == 5) {
                 mescountjunho++;
                 if (database[i]["Day"] == 1) {
-                  segunda = 0;
-                  segunda = aux;
-                  terca = 0;
-                  quarta = 0;
-                  quinta = 0;
-                  sexta = 0;
                   segunda++;
-                  aux = segunda;
                 } else {
                   if (database[i]["Day"] == 2) {
                     terca++;
@@ -253,19 +195,6 @@ function QTD_TAREFAS() {
                       } else {
                         if (database[i]["Day"] == 5) {
                           sexta++;
-                        } else if (dayAtual == 6) {
-                          mescountjaneiro = 0;
-                          mescountfevereiro = 0;
-                          mescountmarco = 0;
-                          mescountabril = 0;
-                          mescountmaio = 0;
-                          mescountjunho = 0;
-                          mescountjulho = 0;
-                          mescountagosto = 0;
-                          mescountsetembro = 0;
-                          mescountoutubro = 0;
-                          mescountnovembro = 0;
-                          mescountdezembro = 0;
                         }
                       }
                     }
@@ -275,14 +204,7 @@ function QTD_TAREFAS() {
                 if (database[i]["Month"] == 6) {
                   mescountjulho++;
                   if (database[i]["Day"] == 1) {
-                    segunda = 0;
-                    segunda = aux;
-                    terca = 0;
-                    quarta = 0;
-                    quinta = 0;
-                    sexta = 0;
                     segunda++;
-                    aux = segunda;
                   } else {
                     if (database[i]["Day"] == 2) {
                       terca++;
@@ -295,19 +217,6 @@ function QTD_TAREFAS() {
                         } else {
                           if (database[i]["Day"] == 5) {
                             sexta++;
-                          } else if (dayAtual == 6) {
-                            mescountjaneiro = 0;
-                            mescountfevereiro = 0;
-                            mescountmarco = 0;
-                            mescountabril = 0;
-                            mescountmaio = 0;
-                            mescountjunho = 0;
-                            mescountjulho = 0;
-                            mescountagosto = 0;
-                            mescountsetembro = 0;
-                            mescountoutubro = 0;
-                            mescountnovembro = 0;
-                            mescountdezembro = 0;
                           }
                         }
                       }
@@ -317,14 +226,7 @@ function QTD_TAREFAS() {
                   if (database[i]["Month"] == 7) {
                     mescountagosto++;
                     if (database[i]["Day"] == 1) {
-                      segunda = 0;
-                      segunda = aux;
-                      terca = 0;
-                      quarta = 0;
-                      quinta = 0;
-                      sexta = 0;
                       segunda++;
-                      aux = segunda;
                     } else {
                       if (database[i]["Day"] == 2) {
                         terca++;
@@ -337,19 +239,6 @@ function QTD_TAREFAS() {
                           } else {
                             if (database[i]["Day"] == 5) {
                               sexta++;
-                            } else if (dayAtual == 6) {
-                              mescountjaneiro = 0;
-                              mescountfevereiro = 0;
-                              mescountmarco = 0;
-                              mescountabril = 0;
-                              mescountmaio = 0;
-                              mescountjunho = 0;
-                              mescountjulho = 0;
-                              mescountagosto = 0;
-                              mescountsetembro = 0;
-                              mescountoutubro = 0;
-                              mescountnovembro = 0;
-                              mescountdezembro = 0;
                             }
                           }
                         }
@@ -359,14 +248,7 @@ function QTD_TAREFAS() {
                     if (database[i]["Month"] == 8) {
                       mescountsetembro++;
                       if (database[i]["Day"] == 1) {
-                        segunda = 0;
-                        segunda = aux;
-                        terca = 0;
-                        quarta = 0;
-                        quinta = 0;
-                        sexta = 0;
                         segunda++;
-                        aux = segunda;
                       } else {
                         if (database[i]["Day"] == 2) {
                           terca++;
@@ -379,19 +261,6 @@ function QTD_TAREFAS() {
                             } else {
                               if (database[i]["Day"] == 5) {
                                 sexta++;
-                              } else if (dayAtual == 6) {
-                                mescountjaneiro = 0;
-                                mescountfevereiro = 0;
-                                mescountmarco = 0;
-                                mescountabril = 0;
-                                mescountmaio = 0;
-                                mescountjunho = 0;
-                                mescountjulho = 0;
-                                mescountagosto = 0;
-                                mescountsetembro = 0;
-                                mescountoutubro = 0;
-                                mescountnovembro = 0;
-                                mescountdezembro = 0;
                               }
                             }
                           }
@@ -401,14 +270,7 @@ function QTD_TAREFAS() {
                       if (database[i]["Month"] == 9) {
                         mescountoutubro++;
                         if (database[i]["Day"] == 1) {
-                          segunda = 0;
-                          segunda = aux;
-                          terca = 0;
-                          quarta = 0;
-                          quinta = 0;
-                          sexta = 0;
                           segunda++;
-                          aux = segunda;
                         } else {
                           if (database[i]["Day"] == 2) {
                             terca++;
@@ -421,19 +283,6 @@ function QTD_TAREFAS() {
                               } else {
                                 if (database[i]["Day"] == 5) {
                                   sexta++;
-                                } else if (dayAtual == 6) {
-                                  mescountjaneiro = 0;
-                                  mescountfevereiro = 0;
-                                  mescountmarco = 0;
-                                  mescountabril = 0;
-                                  mescountmaio = 0;
-                                  mescountjunho = 0;
-                                  mescountjulho = 0;
-                                  mescountagosto = 0;
-                                  mescountsetembro = 0;
-                                  mescountoutubro = 0;
-                                  mescountnovembro = 0;
-                                  mescountdezembro = 0;
                                 }
                               }
                             }
@@ -443,14 +292,7 @@ function QTD_TAREFAS() {
                         if (database[i]["Month"] == 10) {
                           mescountnovembro++;
                           if (database[i]["Day"] == 1) {
-                            segunda = 0;
-                            segunda = aux;
-                            terca = 0;
-                            quarta = 0;
-                            quinta = 0;
-                            sexta = 0;
                             segunda++;
-                            aux = segunda;
                           } else {
                             if (database[i]["Day"] == 2) {
                               terca++;
@@ -463,19 +305,6 @@ function QTD_TAREFAS() {
                                 } else {
                                   if (database[i]["Day"] == 5) {
                                     sexta++;
-                                  } else if (dayAtual == 6) {
-                                    mescountjaneiro = 0;
-                                    mescountfevereiro = 0;
-                                    mescountmarco = 0;
-                                    mescountabril = 0;
-                                    mescountmaio = 0;
-                                    mescountjunho = 0;
-                                    mescountjulho = 0;
-                                    mescountagosto = 0;
-                                    mescountsetembro = 0;
-                                    mescountoutubro = 0;
-                                    mescountnovembro = 0;
-                                    mescountdezembro = 0;
                                   }
                                 }
                               }
@@ -498,19 +327,6 @@ function QTD_TAREFAS() {
                                   } else {
                                     if (database[i]["Day"] == 5) {
                                       sexta++;
-                                    } else if (database[i]["DayM"] == 28) {
-                                      mescountjaneiro = 0;
-                                      mescountfevereiro = 0;
-                                      mescountmarco = 0;
-                                      mescountabril = 0;
-                                      mescountmaio = 0;
-                                      mescountjunho = 0;
-                                      mescountjulho = 0;
-                                      mescountagosto = 0;
-                                      mescountsetembro = 0;
-                                      mescountoutubro = 0;
-                                      mescountnovembro = 0;
-                                      mescountdezembro = 0;
                                     }
                                   }
                                 }
@@ -610,7 +426,7 @@ function QTD_TAREFAS() {
             "#5EE95C",
             "#5EE95C",
           ],
-          borderColor: '#5EE95C',
+          borderColor: "#5EE95C",
         },
       ],
     },
