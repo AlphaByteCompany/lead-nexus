@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Thiago Duarte Miranda Dias" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/utilites/logo.jpeg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/sideBar.css" />
+    <link rel="stylesheet" href="assets/css/principal-area.css" />
+    <link rel="stylesheet" href="assets/css/register-area.css" />
+    <link rel="stylesheet" href="assets/css/animations.css" />
+    <link rel="stylesheet" href="assets/css/more-infos.css" />
+    <link rel="stylesheet" href="assets/css/search.css" />
+    <title>Lead Nexus</title>
+  </head>
+ <body> 
+    <!-- REGISTER-AREA -->
+    <div class="register">
+      <div class="close">
+        <img src="assets/utilites/close.svg" alt="fechar" />
+      </div>
+      <fieldset id="register-area" class="register-area">
+        <!-- https://api.sheetmonkey.io/form/4fzZ4TLqfZhQWutw2Tvppv -->
+        <form id="form-body" action="https://api.sheetmonkey.io/form/4fzZ4TLqfZhQWutw2Tvppv" method="POST">
+          <div class="simple">
+            <div class="new-lead-img">
+              <img src="assets/utilites/user.png" alt="" />
+            </div>
+            <div class="inputs">
+              <input
+                name="Nome"
+                required
+                id="nome"
+                type="text"
+                placeholder="Nome"
+              />
+              <img src="assets/utilites/nameicon.svg" alt="" /> 
+              <small id="avisoName" style="color:rgb(213, 100, 100); font-weight: bold;"></small>
+            </div>
+            <div class="inputs">
+              <input
+                name="Telefone"
+                id="tel"
+                type="tel"
+                placeholder="Telefone"
+              />
+              <img src="assets/utilites/tellicon.svg" alt="" /> 
+              <small id="avisoTell" style="color: rgb(213, 100, 100); font-weight: bold;"></small>
+            </div> 
+            <div class="inputs">
+              <input
+                name="E-mail"
+                id="mail"
+                type="email"
+                placeholder="E-mail"
+              />
+              <img src="assets/utilites/email-icon.svg" alt="" /> 
+              <small id="avisoEmail" style="color: rgb(213, 100, 100) ; font-weight: bold;"></small>
+            </div>
+          </div>
+          <!-- AREA DE INFORMAÇÕES DE LOCAL -->
+          <div class="lead-local-infos">
+            <div class="title-area">
+              <h2>Localização</h2>
+              <img src="assets/utilites/location.svg" alt="" />
+            </div>
+            <select required name="Estado" id="uf">
+              <option value="Disable" disabled selected>
+                Selecione Estado
+              </option>
+            </select>
+            <select required name="Cidade" id="cidade">
+              <option value="Disable" disabled selected>
+                Selecione a Cidade
+              </option>
+            </select>
+            <input required id="date" name="Data" type="datetime-local" />
+          </div>
+          <!-- AREA DE MATERIAIS -->
+          <div class="material-area-info">
+            <div class="title-area">
+              <h2>Material</h2>
+              <img src="assets/utilites/material.svg" alt="" />
+            </div>
+            <select name="Material" id="material" required>
+              <option value="Disable" disabled selected>
+                Escolha a Modalidade
+              </option>
+              <option value="Nenhum">Não Informado</option>
+              <option value="Plastico">Plástico</option>
+              <option value="Metal">Metal</option>
+              <option value="Papel">Papel</option>
+              <option value="Vidro">Vidro</option>
+              <option value="Prensas">Prensas</option>
+              <option value="Info-Produto">Info-Produto</option>
+              <option value="Frete">Frete</option>
+            </select>
+            <select name="Tipo-de-Material" id="TipoDeMaterial" required>
+              <option value="Disable" disabled selected>
+                Escolha o Tipo de Material
+              </option>
+            </select>
+            <select name="Processo" id="Processo" required>
+              <option value="Disable" disabled selected>
+                Escolha o Tipo de Processo
+              </option>
+              <option value="Moído e Lavado">Moído e Lavado</option>
+              <option value="Granulado">Granulado</option>
+              <option value="Enfardado">Enfardado</option>
+              <option value="Solto">Solto</option>
+              <option value="Prensado">Prensado</option>
+              <option value="Nenhum">Nenhum</option>
+            </select>
+            <select name="Responsável" required id="responsavel">
+              <option selected disabled value="disable">
+                Selecione o Responsável
+              </option>
+            </select>
+          </div> 
+          <button id="register-btn" type="submit">Cadastrar</button>
+        </form>
+      </fieldset>
+    </div>
+    <main id="content" class="content">
+      <header class="cabecalho">
+        <div class="notification-area">
+          <div class="notification-img">
+            <img src="assets/utilites/notifications-icon]].svg" alt="" />
+          </div>
+          <div class="notification-text">Notificações</div>
+          <div class="number-of-notifications">4</div>
+        </div>
+        <div class="user-dados">
+          <div class="user-name">
+            <p class="Username">Olá, <span class="name-user"></span></p>
+          </div>
+          <a href="setings-page/index.html"
+          ><img
+          id="user-foto"
+              class="user-foto"
+              src="assets/utilites/user.png"
+              alt="user"
+          /></a>
+        </div>
+      </header>
+      <div class="slidebar">
+          <div class="logo">
+            <img src="assets/utilites/logo.svg" alt="LOGO" />
+          </div>
+        <ul class="links-bar">
+          <li>
+            <a href="dash-page/dash.html"
+              ><img class="home-img" src="assets/utilites/apps-dash.svg" alt="home"
+            /></a>
+          </li>
+          <li>
+            <a href="crm-page/crm.html"
+              ><img class="crm-img" src="assets/utilites/crm icon new.svg" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="index.html"
+              ><img
+                class="lead-icon"
+                src="assets/utilites/lead-icon-svg-select.svg"
+                alt="leads"
+            /></a>
+          </li> 
+          <li>
+            <button id="new-Lead">
+              <img src="assets/utilites/add-icon.svg" alt="" />
+            </button>
+          </li>
+          <li id="sentings"> 
+            <a href="setings-page/index.html">
+              <img
+                class="senting-img"
+                src="assets/utilites/settings.svg"
+                alt="configurações"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <main class="dash">
+        <section class="leads-area">
+          <table id="area-leads">
+            <tr id="lead-status">
+              <th id="border-radius-top-left">ID</th>
+              <th>Nome</th>
+              <th>E-mail</th>
+              <th>Telefone</th>
+              <th id="border-radius-top-right" >...</th>
+            </tr>
+          </table>
+        </section>
+      </main>
+    </main>
+    <button id="new-Lead">
+      <img src="assets/utilites/create.svg" alt="criar" />
+    </button> 
+    <div class="search">
+      <button id="button-search" class="button-seach">
+        <img src="assets/utilites/search.svg" alt="" />
+      </button>
+      <input
+        id="Search-bar"
+        placeholder="Pesquisar..."
+        type="search"
+        class="Barra-de-Pesquisa"
+      />
+    </div> 
+    <!-- SCRIPTS-->
+    <script src="assets/js/code.jquery.com_jquery-3.7.1.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"
+      integrity="sha512-0XDfGxFliYJPFrideYOoxdgNIvrwGTLnmK20xZbCAvPfLGQMzHUsaqZK8ZoH+luXGRxTrS46+Aq400nCnAT0/w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="assets/js/getData.js"></script> 
+    <script src="assets/js/validations.js"></script>
+    <script src="assets/js/ProductsData.js"></script>
+    <script src="assets/js/apiIBGE.js"></script>
+    <script src="assets/js/animations.js"></script>
+    <script src="assets/js/search.js"></script>
+    <script src="assets/js/data-user.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
