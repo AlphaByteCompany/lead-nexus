@@ -1,0 +1,165 @@
+
+.main-content { 
+    overflow-y: scroll;  
+    overflow-x: scroll;
+    background: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: calc(100vw - 10vw);
+    display: flex; 
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    background-size: cover;
+  } 
+  .lead-area {
+  
+  
+     
+    border-radius: 2vh; 
+    
+    display: flex; 
+    flex-direction: row;
+    
+     
+     gap: 3vh;   
+     padding: 2vh;
+  }   
+  .noContato,.contatado,.vendido,.pos-venda{
+    background-color: #F1F1F1;   
+    border-radius: 2vh; 
+    border: 1px dotted rgb(164, 164, 164);
+    width: 30vw; 
+    padding: 2vh;  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    gap: 3vh; 
+    
+  
+    
+  } 
+  .area-status { 
+    width: 99%; 
+    border-radius:1vh;
+    background-color: #000000;   
+    color: white;
+    
+    text-align: center; 
+    display: flex; 
+    align-items: center; 
+    flex-direction: row; 
+    padding: 1vh;
+    gap: 2vh;
+  }  
+  
+  .area-status h2{
+    font-size: 1em;
+  } 
+  .area-status .icon {
+  
+    height: 6vh; 
+    width: 3vw; 
+    clip-path: circle(); 
+    display: flex;
+     align-items: center;
+     justify-content: center;
+  
+  }
+   
+  .area-status .icon img {
+    height: 100%;
+  }
+  
+  
+  .lead {  
+    cursor: grab;
+    
+    background-color: #dadada;   
+    border-radius: 1vh;
+   display: flex; 
+   padding-top: 2vh;  
+   padding-bottom: 2vh;  
+   
+   width: 93%;
+   align-items: center;
+   
+   flex-direction: column;
+  
+   
+  }  
+  
+  .indenfication {
+    color: rgb(40, 40, 40);
+    height:50%;  
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: row;
+  } 
+  .lead-foto { 
+  
+    background-color: silver;
+    height: 7vh; 
+    width: 20%;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    clip-path: circle();
+  }  
+  .lead-foto  img {
+    height: 100%; 
+  
+  }
+  .lead-name { 
+    width: 90%;
+   
+    height: 50%; 
+    display: flex; 
+  
+    align-items: center; 
+    justify-content: start ;
+    
+   
+  } 
+  .infos { 
+    color: rgb(40, 40, 40);
+    width: 100%;
+    
+  } 
+  .tel {
+  
+    display: flex;
+   align-items: center; 
+   padding: 1vh; 
+   font-size: 0.7em;
+  
+  }   
+  
+  .tel-icon,.mail-icon{
+  
+    height: 2.5vh; 
+    width: 4vw;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  } 
+  .tel-icon img , .mail-icon img {
+    height: 100%; 
+  } 
+  .mail { 
+    font-size: 0.8em;
+    padding: 1vh;
+    
+    display: flex; 
+    align-items: center; 
+  
+  }
